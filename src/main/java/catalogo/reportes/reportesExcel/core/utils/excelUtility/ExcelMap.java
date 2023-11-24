@@ -1,0 +1,128 @@
+package catalogo.reportes.reportesExcel.core.utils.excelUtility;
+
+public class ExcelMap {
+
+	public static int PRODUCT_CPP = 0;
+	
+	public static int PRODUCT_GTIN = PRODUCT_CPP + 1;
+	
+	public static int PRODUCT_ORIGIN_COUNTRY = PRODUCT_GTIN + 1;
+
+	public static int PRODUCT_PACKING_COUNTRY = PRODUCT_ORIGIN_COUNTRY + 1;
+
+	public static int PRODUCT_DESCRIPTION = PRODUCT_PACKING_COUNTRY + 1;
+	
+	public static int PRODUCT_TARGET_MARKET = PRODUCT_DESCRIPTION + 1;
+	
+	public static int PRODUCT_BRAND = PRODUCT_TARGET_MARKET + 1;
+	
+	public static int PRODUCT_MAIN_CATEGORY = PRODUCT_BRAND + 1;
+	
+	public static int PRODUCT_SECONDARY_CATEGORY = PRODUCT_MAIN_CATEGORY + 1;
+	
+	public static int PRODUCT_PRESENTATION = PRODUCT_SECONDARY_CATEGORY + 1;
+	
+	public static int PRODUCT_NET_CONTENT = PRODUCT_PRESENTATION + 1;
+	
+	public static int PRODUCT_CONTENT_UNIT = PRODUCT_NET_CONTENT + 1;
+	
+	public static int PRODUCT_NET_WEIGHT = PRODUCT_CONTENT_UNIT + 1;
+	
+	public static int PRODUCT_WEIGHT_UNIT = PRODUCT_NET_WEIGHT + 1;
+	
+	public static int PRODUCT_HEIGHT = PRODUCT_WEIGHT_UNIT + 1;
+	
+	public static int PRODUCT_WIDTH = PRODUCT_HEIGHT + 1;
+	
+	public static int PRODUCT_DEPTH = PRODUCT_WIDTH + 1;
+	
+	public static int PRODUCT_MINIMUM_SELL_LEVEL = PRODUCT_DEPTH + 1;
+	
+	public static int PRODUCT_PROMO = PRODUCT_MINIMUM_SELL_LEVEL + 1;
+
+	public static int PRODUCT_MODEL = PRODUCT_PROMO + 1;
+
+	public static int PRODUCT_USEFUL_LIFE = PRODUCT_MODEL + 1;
+
+	public static int PRODUCT_WARRANTY = PRODUCT_USEFUL_LIFE + 1;
+
+	public static int PRODUCT_FRAGILE = PRODUCT_WARRANTY + 1;
+
+	public static int PRODUCT_CAN_BE_STORED_WITH_FOOD = PRODUCT_FRAGILE + 1;
+
+	public static int PRODUCT_SUSPENDIDO_DESDE = PRODUCT_CAN_BE_STORED_WITH_FOOD + 1;
+
+	public static int PRODUCT_SUSPENDIDO_HASTA = PRODUCT_SUSPENDIDO_DESDE + 1;
+
+	public static int FIRST_PACK_CPP = PRODUCT_SUSPENDIDO_HASTA + 1;
+
+	public static int FIRST_PACK_GTIN = FIRST_PACK_CPP + 1;
+
+	public static int FIRST_PACK_CLASIFICATION = FIRST_PACK_GTIN + 1;
+
+	public static int FIRST_PACK_NET_WEIGHT = FIRST_PACK_CLASIFICATION + 1;
+
+	public static int FIRST_PACK_NET_WEIGHT_UNIT = FIRST_PACK_NET_WEIGHT + 1;
+
+	public static int FIRST_PACK_HEIGHT = FIRST_PACK_NET_WEIGHT_UNIT + 1;
+
+	public static int FIRST_PACK_WIDTH = FIRST_PACK_HEIGHT + 1;
+
+	public static int FIRST_PACK_DEPTH = FIRST_PACK_WIDTH + 1;
+
+	public static int FIRST_PACK_QUANTITY = FIRST_PACK_DEPTH + 1;
+
+	public static int SECOND_PACK_CPP = FIRST_PACK_QUANTITY + 1;
+
+	public static int SECOND_PACK_GTIN = SECOND_PACK_CPP + 1;
+
+	public static int SECOND_PACK_CLASIFICATION = SECOND_PACK_GTIN + 1;
+
+	public static int SECOND_PACK_NET_WEIGHT = SECOND_PACK_CLASIFICATION + 1;
+
+	public static int SECOND_PACK_NET_WEIGHT_UNIT = SECOND_PACK_NET_WEIGHT + 1;
+
+	public static int SECOND_PACK_HEIGHT = SECOND_PACK_NET_WEIGHT_UNIT + 1;
+
+	public static int SECOND_PACK_WIDTH = SECOND_PACK_HEIGHT + 1;
+
+	public static int SECOND_PACK_DEPTH = SECOND_PACK_WIDTH + 1;
+
+	public static int SECOND_PACK_QUANTITY = SECOND_PACK_DEPTH + 1;
+
+	public static int THIRD_PACK_CPP = SECOND_PACK_QUANTITY + 1;
+
+	public static int THIRD_PACK_GTIN = THIRD_PACK_CPP + 1;
+
+	public static int THIRD_PACK_CLASIFICATION = THIRD_PACK_GTIN + 1;
+
+	public static int THIRD_PACK_NET_WEIGHT = THIRD_PACK_CLASIFICATION + 1;
+
+	public static int THIRD_PACK_NET_WEIGHT_UNIT = THIRD_PACK_NET_WEIGHT + 1;
+
+	public static int THIRD_PACK_HEIGHT = THIRD_PACK_NET_WEIGHT_UNIT + 1;
+
+	public static int THIRD_PACK_WIDTH = THIRD_PACK_HEIGHT + 1;
+
+	public static int THIRD_PACK_DEPTH = THIRD_PACK_WIDTH + 1;
+
+	public static int THIRD_PACK_QUANTITY = THIRD_PACK_DEPTH + 1;
+
+	public static int PALLET_HEIGHT = THIRD_PACK_QUANTITY + 1;
+
+	public static int PALLET_WIDTH = PALLET_HEIGHT + 1;
+
+	public static int PALLET_DEPTH = PALLET_WIDTH + 1;
+
+	public static int PALLET_UNITS_INCLUDED = PALLET_DEPTH + 1;
+
+	public static int PALLET_BOXES_INCLUDED = PALLET_UNITS_INCLUDED + 1;
+
+	public static int PALLET_BATCHES_INCLUDED = PALLET_BOXES_INCLUDED + 1;
+
+	public static int EMPRESAS_Y_GRUPOS_CON_VISIBILIDAD = PALLET_BATCHES_INCLUDED + 1;
+
+	public static int ERROR_TYPE_COLUMN = EMPRESAS_Y_GRUPOS_CON_VISIBILIDAD + 1;
+
+	public static int ERROR_COLUMN = ERROR_TYPE_COLUMN + 1;
+}
